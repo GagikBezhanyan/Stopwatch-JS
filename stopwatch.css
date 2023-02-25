@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html {
+	scroll-behavior: smooth;
+}
+.container{
+    width:50%;
+    height:100vh;
+    margin:auto;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.watch, .btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+span {
+    font-size: 100px;
+    padding: 0 10px 0 10px;
+}
+#reset, #start, #stop {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    background-color: #6d6868;
+    font-size: 20px;
+}
+.btn_block{
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    border: 2px solid #6d6868;
+    margin: 0 20px 0 20px; 
+}
+#reset:hover {
+    background-color: #c0b2b2;
+}
+#start:hover {
+    background-color: #3fa13b;
+}
+#stop:hover {
+    background-color: #943434;
+}
